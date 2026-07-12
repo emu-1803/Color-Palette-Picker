@@ -1,7 +1,13 @@
-function ColorButton({ color, onClick }) {
+function ColorButton({ color, onClick, isSelected }) {
   return (
     <div className="Button">
-      <button onClick={onClick} style={{ backgroundColor: color }}>
+      <button
+        onClick={onClick}
+        style={{
+          backgroundColor: color,
+          borderColor: isSelected ? "Aqua" : color,
+        }}
+      >
         {color}
       </button>
     </div>

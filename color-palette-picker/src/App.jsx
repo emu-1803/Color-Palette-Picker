@@ -12,7 +12,7 @@ function App() {
     "Chocolate",
     "Brown",
     "Maroon",
-    "Black",
+    "DarkGreen",
   ];
   const [selectColor, setSelectedColor] = useState(null);
   function resetColor() {
@@ -25,11 +25,12 @@ function App() {
         <p className="par">Pick a color to preview it below!</p>
       </div>
       <div className="colorButton">
-        {color.map((color) => (
+        {color.map((colors) => (
           <ColorButton
-            key={color}
-            color={color}
-            onClick={() => setSelectedColor(color)}
+            key={colors}
+            color={colors}
+            isSelected={colors == selectColor}
+            onClick={() => setSelectedColor(colors)}
           ></ColorButton>
         ))}
       </div>

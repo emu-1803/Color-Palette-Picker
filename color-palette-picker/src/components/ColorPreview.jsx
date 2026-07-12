@@ -3,7 +3,9 @@ function ColorPreview({ color }) {
     <div className="container">
       <h2>Preview:</h2>
       {!color ? (
-        <p className="no">No color is Selected!</p>
+        <div className="board">
+          <p className="no">No color is Selected!</p>
+        </div>
       ) : (
         <>
           <div className="selected" style={{ backgroundColor: color }}></div>
