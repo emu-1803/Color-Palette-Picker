@@ -36,6 +36,11 @@ Add more colors.
 Allow users to add custom colors.
 Add Dark Mode.
 
+## Screenshots
+
+<img src="./src/color palette.png" alt="">
+<img src="./src/color palette 2.png" alt="">
+
 ## Author
 
 Eman Mohammed
