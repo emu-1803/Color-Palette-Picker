@@ -5,7 +5,7 @@ function ColorButton({ color, onClick, isSelected }) {
         onClick={onClick}
         style={{
           backgroundColor: color,
-          borderColor: isSelected ? "Aqua" : color,
+          borderColor: isSelected ? "GreenYellow" : color,
         }}
       >
         {color}

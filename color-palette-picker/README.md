@@ -38,8 +38,8 @@ Add Dark Mode.
 
 ## Screenshots
 
-<img src="./src/color palette.png" alt="">
-<img src="./src/color palette 2.png" alt="">
+<img src="./src/color picker.png" alt="">
+<img src="./src/color picker2.png" alt="">
 
 ## Author
 

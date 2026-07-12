@@ -7,12 +7,12 @@ function App() {
   const color = [
     "AliceBlue",
     "Beige",
-    "AntiqueWhite",
     "BurlyWood",
+    "DarkKhaki",
     "Chocolate",
     "Brown",
+    "DarkRed",
     "Maroon",
-    "DarkGreen",
   ];
   const [selectColor, setSelectedColor] = useState(null);
   function resetColor() {
